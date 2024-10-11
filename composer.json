@@ -1,0 +1,32 @@
+{
+    "name": "landofcoder/module-ves-pagebuilder",
+    "description": "PageBuilder Extension - Manage page layout profiles",
+    "require": {
+        "landofcoder/module-ves-all": "1.0.*",
+        "landofcoder/module-ves-basewidget": "0.1.*"
+    },
+    "type": "magento2-module",
+    "version": "1.0.3",
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "keywords": [
+        "venustheme",
+        "venustheme module pagebuilder",
+        "magento 2 page builder extension"
+    ],
+    "authors": [
+        {
+            "name": "landofcoder",
+            "email": "landofcoder@gmail.com",
+            "role": "Magento 2 Ves Page Builder"
+        }
+    ],
+    "autoload": {
+        "files": [ "registration.php" ],
+        "psr-4": {
+          "Ves\\PageBuilder\\": ""
+        }
+    }
+}
